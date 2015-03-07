@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ES6 Three.js starter</title>
+  <link href="styles/main.css" rel="stylesheet">
+  <script src="bower_components/traceur/traceur.min.js"></script>
+  <script src="bower_components/es6-module-loader/dist/es6-module-loader.js"></script>
+  <script src="bower_components/threejs/build/three.min.js"></script>
+  <script>
+    System.import('js/game').then(function (module) {
+      new module.Game();
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>

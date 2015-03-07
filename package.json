@@ -1,0 +1,28 @@
+{
+  "name": "es6-three-starter",
+  "version": "0.1.0",
+  "description": "This is a starter project for creating games using three.js in es6 environment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mucsi96/es6-three-starter.git"
+  },
+  "keywords": [
+    "es6",
+    "three",
+    "starter"
+  ],
+  "author": "Igor Muchychka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mucsi96/es6-three-starter/issues"
+  },
+  "homepage": "https://github.com/mucsi96/es6-three-starter",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-webserver": "^0.9.0"
+  }
+}

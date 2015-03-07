@@ -1,0 +1,30 @@
+{
+  "name": "es6-three-starter",
+  "version": "0.1.0",
+  "description": "This is a starter project for creating games using three.js in es6 environment",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "es6",
+    "three",
+    "starter"
+  ],
+  "authors": [
+    "Igor Muchychka"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur": "~0.0.86",
+    "es6-module-loader": "~0.15.0",
+    "threejs": "*"
+  }
+}
